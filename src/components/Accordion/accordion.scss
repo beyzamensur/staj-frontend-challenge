@@ -1,0 +1,18 @@
+.Accordion {
+  border: 1px solid var(--color-border); border-radius: var(--border-radius);
+  &__item { border-bottom: 1px solid var(--color-border); 
+    &:last-child { border-bottom: none; }
+    &--open { .Accordion__button { color: var(--color-brand-primary); font-weight: 700; } }
+  }
+  &__button { 
+    width: 100%; text-align: left; padding: calc(var(--spacing-unit) * 2); 
+    background: none; border: none; cursor: pointer; font-size: 1rem; 
+    color: var(--color-text-primary); transition: color 0.2s; 
+    &:focus { outline: 2px solid var(--color-brand-primary); outline-offset: -1px; }
+  }
+  &__panel { 
+    background-color: var(--color-surface); padding: 0 calc(var(--spacing-unit) * 2); 
+    max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out, padding 0.3s ease-out; 
+    & p { padding-bottom: calc(var(--spacing-unit) * 2); color: var(--color-text-secondary); }
+  }
+}

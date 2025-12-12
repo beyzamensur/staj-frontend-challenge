@@ -1,0 +1,25 @@
+{
+  "name": "staj-frontend-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,js --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"src/**/*.{ts,js,scss}\"",
+    "lint:fix": "npm run lint -- --fix && npm run format"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.48.1",
+    "@typescript-eslint/parser": "^8.48.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.7.4",
+    "sass-embedded": "^1.95.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  }
+}

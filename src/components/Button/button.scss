@@ -1,0 +1,15 @@
+.Button {
+  padding: var(--spacing-unit) calc(var(--spacing-unit) * 2); border: 1px solid transparent; border-radius: var(--border-radius); 
+  cursor: pointer; font-weight: 600; transition: all 0.2s ease; 
+  &:focus { outline: 2px solid var(--color-brand-primary); outline-offset: 2px; }
+  &--primary {
+    background-color: var(--color-brand-primary); color: var(--color-background); &:hover { opacity: 0.9; }
+  }
+  &--secondary { 
+    background-color: var(--color-surface); color: var(--color-text-primary); border-color: var(--color-border); 
+    &:hover { background-color: var(--color-border); }
+  }
+  &--ghost { 
+    background: transparent; color: var(--color-text-primary); &:hover { color: var(--color-brand-primary); }
+  }
+}
