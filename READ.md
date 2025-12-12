@@ -78,3 +78,5 @@ Erişilebilirlik (A11y): Temel semantik HTML, label-for kullanımı ve klavye il
 Canlı Demo: (Yayınlandığında buraya eklenecektir)
 
 Lighthouse: Görsel optimizasyon ve lazy-load hedefleriyle minimum 90/100 hedeflenmiştir.
+
+Canlı Demo Linki : https://staj-frontend-challenge-7m37s4529-beyzas-projects-a8ab5005.vercel.app
